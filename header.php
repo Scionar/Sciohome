@@ -10,7 +10,6 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/logoFive.css" />
 		
 		<!-- Scripts -->
-		<?php wp_register_script('jquery'); ?>
 		<?php 
 			wp_enqueue_script(
 				'logoAnimation',
